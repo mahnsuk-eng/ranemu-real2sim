@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the accompanying paper."
+title: "Real2Sim error propagation — code and data artifact"
+abstract: >-
+  RAN emulator, load-factor extraction and error-propagation code, and the raw
+  result files underlying every table and figure of the accompanying paper on
+  error propagation in Real-to-Simulation agents for private 5G networks.
+type: software
+license: MIT
+version: 1.0.0
+authors:
+  - family-names: Yoon
+    given-names: Mahnsuk
+    affiliation: "ICT Device Research Center, Gumi Electronics & Information Technology Research Institute"
+    email: yms@geri.re.kr
+  - family-names: Jung
+    given-names: Yong-An
+    affiliation: "ICT Device Research Center, Gumi Electronics & Information Technology Research Institute"
+  - family-names: Lee
+    given-names: Sung-Hun
+    affiliation: "ICT Device Research Center, Gumi Electronics & Information Technology Research Institute"
+preferred-citation:
+  type: article
+  title: >-
+    Ground truth for Real-to-Simulation agents: closed-form error propagation,
+    capture-loss correction, and the load-factor clipping floor on operational
+    private 5G traffic
+  authors:
+    - family-names: Yoon
+      given-names: Mahnsuk
+    - family-names: Jung
+      given-names: Yong-An
+    - family-names: Lee
+      given-names: Sung-Hun
+  journal: "Physical Communication"
+  year: 2026

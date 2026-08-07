@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Regenerated artefacts, not tracked
+*.pcap
+*.pcapng
+ranemu/paper/physcomm/paper.filled.md
+ranemu/paper/physcomm/*.docx

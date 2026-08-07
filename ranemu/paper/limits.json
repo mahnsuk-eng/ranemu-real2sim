@@ -1,0 +1,90 @@
+[
+  {
+    "size_profile": "uniform-1400",
+    "impairment": "uniform-loss30",
+    "actual_loss_pct": 29.81,
+    "estimated_loss_pct": 29.81,
+    "size_cv": 0.0,
+    "flagged": false,
+    "probe_error_pct": -29.81,
+    "corrected_error_pct": 0.0,
+    "corrected_local_error_pct": 0.0
+  },
+  {
+    "size_profile": "uniform-1400",
+    "impairment": "saturation",
+    "actual_loss_pct": 47.795,
+    "estimated_loss_pct": 47.795,
+    "size_cv": 0.0,
+    "flagged": false,
+    "probe_error_pct": -47.795,
+    "corrected_error_pct": -0.0,
+    "corrected_local_error_pct": 0.0
+  },
+  {
+    "size_profile": "bimodal-64/1400",
+    "impairment": "uniform-loss30",
+    "actual_loss_pct": 29.81,
+    "estimated_loss_pct": 29.81,
+    "size_cv": 0.911,
+    "flagged": true,
+    "probe_error_pct": -29.965,
+    "corrected_error_pct": -0.221,
+    "corrected_local_error_pct": -0.214
+  },
+  {
+    "size_profile": "bimodal-64/1400",
+    "impairment": "saturation",
+    "actual_loss_pct": 27.54,
+    "estimated_loss_pct": 27.536,
+    "size_cv": 1.286,
+    "flagged": true,
+    "probe_error_pct": -52.478,
+    "corrected_error_pct": -34.42,
+    "corrected_local_error_pct": -26.92
+  },
+  {
+    "size_profile": "trimodal-64/512/1400",
+    "impairment": "uniform-loss30",
+    "actual_loss_pct": 29.81,
+    "estimated_loss_pct": 29.81,
+    "size_cv": 0.851,
+    "flagged": true,
+    "probe_error_pct": -30.057,
+    "corrected_error_pct": -0.352,
+    "corrected_local_error_pct": -0.232
+  },
+  {
+    "size_profile": "trimodal-64/512/1400",
+    "impairment": "saturation",
+    "actual_loss_pct": 27.045,
+    "estimated_loss_pct": 27.041,
+    "size_cv": 1.027,
+    "flagged": true,
+    "probe_error_pct": -53.457,
+    "corrected_error_pct": -36.206,
+    "corrected_local_error_pct": -31.59
+  },
+  {
+    "size_profile": "uniform-random-64..1400",
+    "impairment": "uniform-loss30",
+    "actual_loss_pct": 29.81,
+    "estimated_loss_pct": 29.81,
+    "size_cv": 0.527,
+    "flagged": true,
+    "probe_error_pct": -29.914,
+    "corrected_error_pct": -0.149,
+    "corrected_local_error_pct": -0.144
+  },
+  {
+    "size_profile": "uniform-random-64..1400",
+    "impairment": "saturation",
+    "actual_loss_pct": 35.78,
+    "estimated_loss_pct": 35.774,
+    "size_cv": 0.593,
+    "flagged": true,
+    "probe_error_pct": -51.643,
+    "corrected_error_pct": -24.709,
+    "corrected_local_error_pct": -20.142
+  }
+]

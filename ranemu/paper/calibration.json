@@ -1,0 +1,386 @@
+{
+  "summary": {
+    "n_conditions": 21,
+    "n_lossy": 15,
+    "loss_estimate_max_error_pp": 0.004,
+    "loss_estimate_mean_error_pp": 0.001,
+    "corrected_mean_abs_error_pct": 0.0,
+    "corrected_max_abs_error_pct": 0.001,
+    "n_paired": 15,
+    "probe_mean_abs_error_pct": 33.255,
+    "probe_max_abs_error_pct": 82.055,
+    "paired_corrected_mean_abs_error_pct": 0.0,
+    "error_reduction_factor": 99437.61
+  },
+  "points": [
+    {
+      "label": "clean",
+      "params": {
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 0.0,
+      "estimated_loss_pct": 0.0,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.3522,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 263.4149,
+      "corrected_mbps": 263.6588,
+      "probe_error_pct": -0.092,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "loss2",
+      "params": {
+        "loss_rate": 0.02,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 1.968,
+      "estimated_loss_pct": 1.968,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.3468,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 258.2328,
+      "corrected_mbps": 263.6588,
+      "probe_error_pct": -2.058,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "loss5",
+      "params": {
+        "loss_rate": 0.05,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 4.973,
+      "estimated_loss_pct": 4.973,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.3374,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 250.3208,
+      "corrected_mbps": 263.6588,
+      "probe_error_pct": -5.059,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "loss10",
+      "params": {
+        "loss_rate": 0.1,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 10.027,
+      "estimated_loss_pct": 10.027,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.3231,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 237.0027,
+      "corrected_mbps": 263.6588,
+      "probe_error_pct": -10.11,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "loss20",
+      "params": {
+        "loss_rate": 0.2,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 20.103,
+      "estimated_loss_pct": 20.102,
+      "loss_estimate_error_pp": -0.001,
+      "coalescing_ratio": 0.292,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 210.4616,
+      "corrected_mbps": 263.6574,
+      "probe_error_pct": -20.177,
+      "corrected_error_pct": -0.001
+    },
+    {
+      "label": "loss30",
+      "params": {
+        "loss_rate": 0.3,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 30.006,
+      "estimated_loss_pct": 30.004,
+      "loss_estimate_error_pp": -0.001,
+      "coalescing_ratio": 0.2602,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 184.3662,
+      "corrected_mbps": 263.6567,
+      "probe_error_pct": -30.074,
+      "corrected_error_pct": -0.001
+    },
+    {
+      "label": "loss40",
+      "params": {
+        "loss_rate": 0.4,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 39.937,
+      "estimated_loss_pct": 39.936,
+      "loss_estimate_error_pp": -0.001,
+      "coalescing_ratio": 0.2275,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 158.2,
+      "corrected_mbps": 263.6567,
+      "probe_error_pct": -39.998,
+      "corrected_error_pct": -0.001
+    },
+    {
+      "label": "loss50",
+      "params": {
+        "loss_rate": 0.5,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 49.928,
+      "estimated_loss_pct": 49.927,
+      "loss_estimate_error_pp": -0.001,
+      "coalescing_ratio": 0.1931,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 131.8594,
+      "corrected_mbps": 263.6567,
+      "probe_error_pct": -49.989,
+      "corrected_error_pct": -0.001
+    },
+    {
+      "label": "loss60",
+      "params": {
+        "loss_rate": 0.6,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 59.892,
+      "estimated_loss_pct": 59.89,
+      "loss_estimate_error_pp": -0.002,
+      "coalescing_ratio": 0.1578,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 105.6013,
+      "corrected_mbps": 263.6567,
+      "probe_error_pct": -59.948,
+      "corrected_error_pct": -0.001
+    },
+    {
+      "label": "sat300",
+      "params": {
+        "capacity_mbps": 300.0,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 0.0,
+      "estimated_loss_pct": 0.0,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.3522,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 263.4149,
+      "corrected_mbps": 263.6588,
+      "probe_error_pct": -0.092,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "sat250",
+      "params": {
+        "capacity_mbps": 250.0,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 10.564,
+      "estimated_loss_pct": 10.564,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.3226,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 236.2096,
+      "corrected_mbps": 263.6588,
+      "probe_error_pct": -10.411,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "sat200",
+      "params": {
+        "capacity_mbps": 200.0,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 28.249,
+      "estimated_loss_pct": 28.249,
+      "loss_estimate_error_pp": -0.0,
+      "coalescing_ratio": 0.2844,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 188.9898,
+      "corrected_mbps": 263.6587,
+      "probe_error_pct": -28.32,
+      "corrected_error_pct": -0.0
+    },
+    {
+      "label": "sat150",
+      "params": {
+        "capacity_mbps": 150.0,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 45.618,
+      "estimated_loss_pct": 45.618,
+      "loss_estimate_error_pp": -0.001,
+      "coalescing_ratio": 0.1842,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 141.7215,
+      "corrected_mbps": 263.6579,
+      "probe_error_pct": -46.248,
+      "corrected_error_pct": -0.0
+    },
+    {
+      "label": "sat100",
+      "params": {
+        "capacity_mbps": 100.0,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 62.281,
+      "estimated_loss_pct": 62.277,
+      "loss_estimate_error_pp": -0.003,
+      "coalescing_ratio": 0.0716,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 94.3647,
+      "corrected_mbps": 263.6583,
+      "probe_error_pct": -64.21,
+      "corrected_error_pct": -0.0
+    },
+    {
+      "label": "sat50",
+      "params": {
+        "capacity_mbps": 50.0,
+        "buffer_kb": 256.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 80.68,
+      "estimated_loss_pct": 80.676,
+      "loss_estimate_error_pp": -0.004,
+      "coalescing_ratio": 0.024,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 47.3139,
+      "corrected_mbps": 263.6587,
+      "probe_error_pct": -82.055,
+      "corrected_error_pct": -0.0
+    },
+    {
+      "label": "coalesce4",
+      "params": {
+        "buffer_kb": 256.0,
+        "coalesce_batch": 4.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 0.0,
+      "estimated_loss_pct": 0.0,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.7859,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 263.4149,
+      "corrected_mbps": 263.6595,
+      "probe_error_pct": -0.092,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "dup30",
+      "params": {
+        "buffer_kb": 256.0,
+        "duplicate_rate": 0.3,
+        "seed": 42
+      },
+      "actual_loss_pct": 0.0,
+      "estimated_loss_pct": 0.0,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.5018,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 263.4149,
+      "corrected_mbps": 263.6588,
+      "probe_error_pct": -0.092,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "snap128",
+      "params": {
+        "buffer_kb": 256.0,
+        "snaplen": 128,
+        "seed": 42
+      },
+      "actual_loss_pct": 0.0,
+      "estimated_loss_pct": 0.0,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.3522,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 263.4149,
+      "corrected_mbps": 263.6588,
+      "probe_error_pct": -0.092,
+      "corrected_error_pct": 0.0
+    },
+    {
+      "label": "loss20+dup20",
+      "params": {
+        "loss_rate": 0.2,
+        "buffer_kb": 256.0,
+        "duplicate_rate": 0.2,
+        "seed": 42
+      },
+      "actual_loss_pct": 20.043,
+      "estimated_loss_pct": 20.042,
+      "loss_estimate_error_pp": -0.001,
+      "coalescing_ratio": 0.4088,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 210.6595,
+      "corrected_mbps": 263.6586,
+      "probe_error_pct": -20.101,
+      "corrected_error_pct": -0.0
+    },
+    {
+      "label": "loss30+coal4",
+      "params": {
+        "loss_rate": 0.3,
+        "buffer_kb": 256.0,
+        "coalesce_batch": 4.0,
+        "seed": 42
+      },
+      "actual_loss_pct": 30.006,
+      "estimated_loss_pct": 30.004,
+      "loss_estimate_error_pp": -0.001,
+      "coalescing_ratio": 0.7771,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 184.3662,
+      "corrected_mbps": 263.6575,
+      "probe_error_pct": -30.074,
+      "corrected_error_pct": -0.0
+    },
+    {
+      "label": "sat500+coal4+dup20",
+      "params": {
+        "capacity_mbps": 500.0,
+        "buffer_kb": 256.0,
+        "coalesce_batch": 4.0,
+        "duplicate_rate": 0.2,
+        "seed": 42
+      },
+      "actual_loss_pct": 0.0,
+      "estimated_loss_pct": 0.0,
+      "loss_estimate_error_pp": 0.0,
+      "coalescing_ratio": 0.7996,
+      "truth_mbps": 263.6588,
+      "probe_mbps": 263.4149,
+      "corrected_mbps": 263.6586,
+      "probe_error_pct": -0.092,
+      "corrected_error_pct": -0.0
+    }
+  ],
+  "injection": {
+    "packets": 197313,
+    "bytes": 262427136,
+    "ues": 4
+  },
+  "truth": {
+    "mbps": 263.6588138312441,
+    "packets": 197313
+  }
+}

@@ -1,0 +1,22 @@
+# 스텁 코어 상대 검증용(네트워크 장비 불필요). amf_port/upf_port 는 e2e 가 채운다.
+name: stub-loopback
+seed: 42
+core: {kind: stub, amf_addr: 127.0.0.1, amf_port: 38412, upf_addr: 127.0.0.1, upf_port: 2152}
+gnb:
+  name: ranemu-stub-gnb
+  mcc: "450"
+  mnc: "05"
+  gnb_id: 1
+  tac: 1
+  n2_local_addr: 127.0.0.1
+  n3_local_addr: 127.0.0.1
+  n3_local_port: 0
+  n3_advertise_addr: 127.0.0.1
+security: {key: "465b5ce8b199b49faa5f0a2ee238a6bc", opc: "cd63cb71954a9f4e48a5994e37a02baf", amf: "8000"}
+ue_groups:
+  - {name: redcap, count: 2, imsi_start: "450050000000001", features: [redcap], traffic: fullbuffer}
+  - {name: ntn-leo, count: 1, imsi_start: "450050000000011", features: [ntn],
+     feature_params: {ntn: {orbit: leo}}, traffic: fullbuffer}
+  - {name: embb, count: 1, imsi_start: "450050000000021", features: [], traffic: fullbuffer}
+traffic: {duration: 10.0, dest_addr: 8.8.8.8, packet_size: 1400, downlink_mode: loopback}
+capture: {enabled: false}

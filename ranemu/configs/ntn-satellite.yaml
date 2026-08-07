@@ -1,0 +1,20 @@
+# NTN(위성) 시나리오 — 궤도별 지연/단절에서 코어 절차가 견디는지 검증.
+# GEO 는 왕복 ~480ms 이므로 NAS 타이머가 짧은 코어에서는 등록이 실패할 수 있다.
+# 그 실패를 드러내는 것이 이 시험의 목적이다.
+name: ntn-satellite
+seed: 42
+core: {kind: real, amf_addr: 10.1.16.10, amf_port: 38412}
+gnb: {name: ranemu-ntn-gnb, mcc: "450", mnc: "05", gnb_id: 2, tac: 2, n3_local_port: 2152}
+security: {key: "465b5ce8b199b49faa5f0a2ee238a6bc", opc: "cd63cb71954a9f4e48a5994e37a02baf", amf: "8000"}
+ue_groups:
+  - {name: geo, count: 2, imsi_start: "450050000000101", features: [ntn],
+     feature_params: {ntn: {orbit: geo}}, traffic: fullbuffer}
+  - {name: meo, count: 2, imsi_start: "450050000000111", features: [ntn],
+     feature_params: {ntn: {orbit: meo}}, traffic: fullbuffer}
+  - {name: leo, count: 2, imsi_start: "450050000000121", features: [ntn],
+     feature_params: {ntn: {orbit: leo, handover_interruption_ms: 50}}, traffic: fullbuffer}
+  - {name: redcap-ntn, count: 2, imsi_start: "450050000000131", features: [redcap, ntn],
+     feature_params: {ntn: {orbit: leo}, redcap: {variant: rel17}}, traffic: fullbuffer}
+traffic: {duration: 120.0, dest_addr: 8.8.8.8, packet_size: 1400, downlink_mode: echo}
+capture: {enabled: true, out_dir: /tmp/ranemu_captures, auto_analyze: true}
+procedure_timeout: 30.0

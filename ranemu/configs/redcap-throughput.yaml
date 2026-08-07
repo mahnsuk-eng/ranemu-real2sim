@@ -1,0 +1,18 @@
+# RedCap 단말의 처리량 상한을 코어가 정확히 적용하는지 검증하는 최소 설정.
+#   python3 -m ranemu.cli run -c ranemu/configs/redcap-throughput.yaml
+name: redcap-throughput
+seed: 42
+core: {kind: real, amf_addr: 10.1.16.10, amf_port: 38412}
+gnb:
+  name: ranemu-gnb-1
+  mcc: "450"
+  mnc: "05"
+  gnb_id: 1
+  tac: 1
+  n3_local_port: 2152
+security: {key: "465b5ce8b199b49faa5f0a2ee238a6bc", opc: "cd63cb71954a9f4e48a5994e37a02baf", amf: "8000"}
+ue_groups:
+  - {name: embb-baseline, count: 1, imsi_start: "450050000000001", features: [], traffic: fullbuffer}
+  - {name: redcap, count: 3, imsi_start: "450050000000002", features: [redcap], traffic: fullbuffer}
+traffic: {duration: 60.0, dest_addr: 8.8.8.8, packet_size: 1400, downlink_mode: echo}
+capture: {enabled: true, out_dir: /tmp/ranemu_captures, auto_analyze: true}

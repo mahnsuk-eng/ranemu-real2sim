@@ -1,0 +1,762 @@
+{
+ "captures": [
+  {
+   "meta": {
+    "pcap": "250826_1030_1130.pcap",
+    "ues": [
+     "10.1.17.210",
+     "10.1.17.211"
+    ],
+    "ue_selection": "subnet 10.1.17.0/24",
+    "peer_counts": {
+     "10.1.17.210": 361,
+     "10.1.17.211": 13
+    },
+    "bytes_unattributed": 338428,
+    "window_s": 5.0,
+    "packets": 500240,
+    "duplication_factor": 1.3534,
+    "peak_dl_mbps": 914.0,
+    "peak_ul_mbps": 80.7,
+    "lf_min": 0.3,
+    "lf_max": 1.0,
+    "active_features": [
+     "SBFD",
+     "MIMO-adv",
+     "EN-DC"
+    ],
+    "n_ue_directions": 4
+   },
+   "per_ue": [
+    {
+     "ue_ip": "10.1.17.210",
+     "direction": "DL",
+     "n_windows": 376,
+     "mean_mbps": 1.5977,
+     "max_mbps": 19.6044,
+     "cv": 1.9767,
+     "lf_raw_mean": 0.00175,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.210",
+     "direction": "UL",
+     "n_windows": 350,
+     "mean_mbps": 0.0768,
+     "max_mbps": 1.0909,
+     "cv": 2.2754,
+     "lf_raw_mean": 0.00095,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.211",
+     "direction": "DL",
+     "n_windows": 15,
+     "mean_mbps": 0.0164,
+     "max_mbps": 0.2019,
+     "cv": 3.0912,
+     "lf_raw_mean": 2e-05,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.211",
+     "direction": "UL",
+     "n_windows": 14,
+     "mean_mbps": 0.0034,
+     "max_mbps": 0.0359,
+     "cv": 2.763,
+     "lf_raw_mean": 4e-05,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    }
+   ],
+   "distribution": {
+    "DL": {
+     "n_windows": 391,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00168,
+      "p05": 0.0,
+      "p50": 0.0001,
+      "p95": 0.01066,
+      "max": 0.02145
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.00767
+    },
+    "UL": {
+     "n_windows": 364,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00092,
+      "p05": 0.0,
+      "p50": 0.00015,
+      "p95": 0.00728,
+      "max": 0.01352
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.00824
+    }
+   },
+   "distribution_own_peak": {
+    "DL": {
+     "n_windows": 391,
+     "lf": {
+      "mean": 0.08148,
+      "p05": 1e-05,
+      "p50": 0.00622,
+      "p95": 0.4989,
+      "max": 1.0
+     },
+     "clipped_frac": 0.9233,
+     "amplification": {
+      "mean": 1.0864,
+      "p50": 1.00764,
+      "max": 1.8693
+     }
+    },
+    "UL": {
+     "n_windows": 364,
+     "lf": {
+      "mean": 0.07131,
+      "p05": 9e-05,
+      "p50": 0.01105,
+      "p95": 0.54481,
+      "max": 1.0
+     },
+     "clipped_frac": 0.9258,
+     "amplification": {
+      "mean": 1.0746,
+      "p50": 1.01352,
+      "max": 1.8693
+     }
+    }
+   }
+  },
+  {
+   "meta": {
+    "pcap": "250826_1430_1600.pcap",
+    "ues": [
+     "10.1.17.212",
+     "10.1.17.223"
+    ],
+    "ue_selection": "subnet 10.1.17.0/24",
+    "peer_counts": {
+     "10.1.17.212": 5,
+     "10.1.17.223": 356
+    },
+    "bytes_unattributed": 516942,
+    "window_s": 5.0,
+    "packets": 583256,
+    "duplication_factor": 2.1012,
+    "peak_dl_mbps": 914.0,
+    "peak_ul_mbps": 80.7,
+    "lf_min": 0.3,
+    "lf_max": 1.0,
+    "active_features": [
+     "SBFD",
+     "MIMO-adv",
+     "EN-DC"
+    ],
+    "n_ue_directions": 4
+   },
+   "per_ue": [
+    {
+     "ue_ip": "10.1.17.212",
+     "direction": "DL",
+     "n_windows": 21,
+     "mean_mbps": 0.0251,
+     "max_mbps": 0.1218,
+     "cv": 1.6852,
+     "lf_raw_mean": 3e-05,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.212",
+     "direction": "UL",
+     "n_windows": 22,
+     "mean_mbps": 0.0047,
+     "max_mbps": 0.0322,
+     "cv": 1.704,
+     "lf_raw_mean": 6e-05,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.223",
+     "direction": "DL",
+     "n_windows": 231,
+     "mean_mbps": 2.0111,
+     "max_mbps": 20.1634,
+     "cv": 2.0525,
+     "lf_raw_mean": 0.0022,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.223",
+     "direction": "UL",
+     "n_windows": 200,
+     "mean_mbps": 0.1148,
+     "max_mbps": 1.1933,
+     "cv": 2.0491,
+     "lf_raw_mean": 0.00142,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    }
+   ],
+   "distribution": {
+    "DL": {
+     "n_windows": 252,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00202,
+      "p05": 0.0,
+      "p50": 1e-05,
+      "p95": 0.01391,
+      "max": 0.02206
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.0119
+    },
+    "UL": {
+     "n_windows": 222,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00129,
+      "p05": 0.0,
+      "p50": 0.00013,
+      "p95": 0.00855,
+      "max": 0.01479
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.01351
+    }
+   },
+   "distribution_own_peak": {
+    "DL": {
+     "n_windows": 252,
+     "lf": {
+      "mean": 0.1086,
+      "p05": 1e-05,
+      "p50": 0.00095,
+      "p95": 0.68224,
+      "max": 1.0
+     },
+     "clipped_frac": 0.8849,
+     "amplification": {
+      "mean": 1.1095,
+      "p50": 1.00116,
+      "max": 1.8693
+     }
+    },
+    "UL": {
+     "n_windows": 222,
+     "lf": {
+      "mean": 0.10105,
+      "p05": 7e-05,
+      "p50": 0.00924,
+      "p95": 0.59896,
+      "max": 1.0
+     },
+     "clipped_frac": 0.8514,
+     "amplification": {
+      "mean": 1.1034,
+      "p50": 1.01133,
+      "max": 1.8693
+     }
+    }
+   }
+  },
+  {
+   "meta": {
+    "pcap": "250826_0929_1030.pcap",
+    "ues": [
+     "10.1.17.210"
+    ],
+    "ue_selection": "subnet 10.1.17.0/24",
+    "peer_counts": {
+     "10.1.17.210": 52
+    },
+    "bytes_unattributed": 352046,
+    "window_s": 5.0,
+    "packets": 845466,
+    "duplication_factor": 7.2317,
+    "peak_dl_mbps": 914.0,
+    "peak_ul_mbps": 80.7,
+    "lf_min": 0.3,
+    "lf_max": 1.0,
+    "active_features": [
+     "SBFD",
+     "MIMO-adv",
+     "EN-DC"
+    ],
+    "n_ue_directions": 2
+   },
+   "per_ue": [
+    {
+     "ue_ip": "10.1.17.210",
+     "direction": "DL",
+     "n_windows": 364,
+     "mean_mbps": 0.5309,
+     "max_mbps": 8.6788,
+     "cv": 1.2345,
+     "lf_raw_mean": 0.00058,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.210",
+     "direction": "UL",
+     "n_windows": 410,
+     "mean_mbps": 0.0371,
+     "max_mbps": 0.2623,
+     "cv": 1.2141,
+     "lf_raw_mean": 0.00046,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    }
+   ],
+   "distribution": {
+    "DL": {
+     "n_windows": 364,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00058,
+      "p05": 0.0,
+      "p50": 0.00039,
+      "p95": 0.00167,
+      "max": 0.0095
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.00824
+    },
+    "UL": {
+     "n_windows": 410,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00046,
+      "p05": 2e-05,
+      "p50": 0.00025,
+      "p95": 0.00168,
+      "max": 0.00325
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.00732
+    }
+   },
+   "distribution_own_peak": {
+    "DL": {
+     "n_windows": 364,
+     "lf": {
+      "mean": 0.06117,
+      "p05": 2e-05,
+      "p50": 0.04145,
+      "p95": 0.17625,
+      "max": 1.0
+     },
+     "clipped_frac": 0.9973,
+     "amplification": {
+      "mean": 1.071,
+      "p50": 1.05012,
+      "max": 1.8693
+     }
+    },
+    "UL": {
+     "n_windows": 410,
+     "lf": {
+      "mean": 0.14153,
+      "p05": 0.0064,
+      "p50": 0.07673,
+      "p95": 0.51689,
+      "max": 1.0
+     },
+     "clipped_frac": 0.861,
+     "amplification": {
+      "mean": 1.1532,
+      "p50": 1.09145,
+      "max": 1.8693
+     }
+    }
+   }
+  },
+  {
+   "meta": {
+    "pcap": "250827_1620_1730.pcap",
+    "ues": [
+     "10.1.17.196"
+    ],
+    "ue_selection": "subnet 10.1.17.0/24",
+    "peer_counts": {
+     "10.1.17.196": 398
+    },
+    "bytes_unattributed": 395462,
+    "window_s": 5.0,
+    "packets": 1155518,
+    "duplication_factor": 2.896,
+    "peak_dl_mbps": 914.0,
+    "peak_ul_mbps": 80.7,
+    "lf_min": 0.3,
+    "lf_max": 1.0,
+    "active_features": [
+     "SBFD",
+     "MIMO-adv",
+     "EN-DC"
+    ],
+    "n_ue_directions": 2
+   },
+   "per_ue": [
+    {
+     "ue_ip": "10.1.17.196",
+     "direction": "DL",
+     "n_windows": 460,
+     "mean_mbps": 1.5307,
+     "max_mbps": 23.0831,
+     "cv": 2.4057,
+     "lf_raw_mean": 0.00167,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.196",
+     "direction": "UL",
+     "n_windows": 450,
+     "mean_mbps": 0.0724,
+     "max_mbps": 1.2406,
+     "cv": 2.4889,
+     "lf_raw_mean": 0.0009,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    }
+   ],
+   "distribution": {
+    "DL": {
+     "n_windows": 460,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00167,
+      "p05": 0.0,
+      "p50": 0.00012,
+      "p95": 0.01113,
+      "max": 0.02525
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.00652
+    },
+    "UL": {
+     "n_windows": 450,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.0009,
+      "p05": 0.0,
+      "p50": 0.00014,
+      "p95": 0.006,
+      "max": 0.01537
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.00667
+    }
+   },
+   "distribution_own_peak": {
+    "DL": {
+     "n_windows": 460,
+     "lf": {
+      "mean": 0.06631,
+      "p05": 1e-05,
+      "p50": 0.00469,
+      "p95": 0.44064,
+      "max": 1.0
+     },
+     "clipped_frac": 0.9391,
+     "amplification": {
+      "mean": 1.0696,
+      "p50": 1.00576,
+      "max": 1.8693
+     }
+    },
+    "UL": {
+     "n_windows": 450,
+     "lf": {
+      "mean": 0.05833,
+      "p05": 0.0001,
+      "p50": 0.00906,
+      "p95": 0.39017,
+      "max": 1.0
+     },
+     "clipped_frac": 0.9444,
+     "amplification": {
+      "mean": 1.0617,
+      "p50": 1.0111,
+      "max": 1.8693
+     }
+    }
+   }
+  },
+  {
+   "meta": {
+    "pcap": "250828_0940_1110.pcap",
+    "ues": [
+     "10.1.17.196"
+    ],
+    "ue_selection": "subnet 10.1.17.0/24",
+    "peer_counts": {
+     "10.1.17.196": 388
+    },
+    "bytes_unattributed": 517462,
+    "window_s": 5.0,
+    "packets": 1850001,
+    "duplication_factor": 4.0341,
+    "peak_dl_mbps": 914.0,
+    "peak_ul_mbps": 80.7,
+    "lf_min": 0.3,
+    "lf_max": 1.0,
+    "active_features": [
+     "SBFD",
+     "MIMO-adv",
+     "EN-DC"
+    ],
+    "n_ue_directions": 2
+   },
+   "per_ue": [
+    {
+     "ue_ip": "10.1.17.196",
+     "direction": "DL",
+     "n_windows": 646,
+     "mean_mbps": 1.2721,
+     "max_mbps": 26.4678,
+     "cv": 2.4331,
+     "lf_raw_mean": 0.00139,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    },
+    {
+     "ue_ip": "10.1.17.196",
+     "direction": "UL",
+     "n_windows": 631,
+     "mean_mbps": 0.0592,
+     "max_mbps": 1.0291,
+     "cv": 2.2332,
+     "lf_raw_mean": 0.00073,
+     "lf_used_mean": 0.3,
+     "clipped_frac": 1.0
+    }
+   ],
+   "distribution": {
+    "DL": {
+     "n_windows": 646,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00139,
+      "p05": 0.0,
+      "p50": 0.0003,
+      "p95": 0.00783,
+      "max": 0.02896
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.00464
+    },
+    "UL": {
+     "n_windows": 631,
+     "lf_used": {
+      "mean": 0.3,
+      "p05": 0.3,
+      "p50": 0.3,
+      "p95": 0.3,
+      "max": 0.3
+     },
+     "lf_raw": {
+      "mean": 0.00073,
+      "p05": 0.0,
+      "p50": 0.00022,
+      "p95": 0.00408,
+      "max": 0.01275
+     },
+     "clipped_frac": 1.0,
+     "saturated_frac": 0.0,
+     "amplification": {
+      "mean": 1.328,
+      "p05": 1.32804,
+      "p50": 1.32804,
+      "p95": 1.32804,
+      "max": 1.32804
+     },
+     "capture_budget_for_5pct": 3.7649,
+     "unclipped_frac_upper95": 0.00475
+    }
+   },
+   "distribution_own_peak": {
+    "DL": {
+     "n_windows": 646,
+     "lf": {
+      "mean": 0.04806,
+      "p05": 1e-05,
+      "p50": 0.01042,
+      "p95": 0.27036,
+      "max": 1.0
+     },
+     "clipped_frac": 0.9582,
+     "amplification": {
+      "mean": 1.0524,
+      "p50": 1.01277,
+      "max": 1.8693
+     }
+    },
+    "UL": {
+     "n_windows": 631,
+     "lf": {
+      "mean": 0.05749,
+      "p05": 0.0002,
+      "p50": 0.01764,
+      "p95": 0.32016,
+      "max": 1.0
+     },
+     "clipped_frac": 0.9477,
+     "amplification": {
+      "mean": 1.0624,
+      "p50": 1.02154,
+      "max": 1.8693
+     }
+    }
+   }
+  }
+ ]
+}
